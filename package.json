@@ -57,6 +57,9 @@
       "eslint --fix",
       "prettier --list-different"
     ],
-    "**/*": "prettier --write --ignore-unknown"
+    "**/.scss": "stylelint \"**/*.scss\"",
+    "**/*": [
+      "prettier --check --write --ignore-unknown"
+    ]
   }
 }
