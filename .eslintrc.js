@@ -6,8 +6,10 @@ module.exports = {
   extends: ["standard-with-typescript", "prettier"],
   overrides: [],
   parserOptions: {
+    project: ["./tsconfig.json"],
     ecmaVersion: "latest",
     sourceType: "module",
   },
   rules: {},
+  ignorePatterns: ["server.ts", ".eslintrc.js"],
 };

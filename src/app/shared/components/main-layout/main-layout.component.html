@@ -1,0 +1,10 @@
+<mat-drawer-container class="main-layout" autosize>
+  <mat-drawer #drawer class="sidenav tw-bg-main" mode="side">
+    <p class="tw-text-primary">Auto-resizing sidenav</p>
+    <p *ngIf="showFiller">Lorem, ipsum dolor sit amet consectetur.</p>
+  </mat-drawer>
+
+  <div class="content">
+    <app-header [ref]="drawer"></app-header>
+  </div>
+</mat-drawer-container>

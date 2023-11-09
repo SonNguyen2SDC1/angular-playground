@@ -1,0 +1,10 @@
+// style
+:host {
+  .header {
+    @apply tw-flex tw-flex-nowrap tw-absolute tw-inset-0 tw-bg-main tw-text-primary;
+  }
+
+  .spacer {
+    flex: 1 1 auto;
+  }
+}
