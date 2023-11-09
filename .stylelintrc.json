@@ -2,7 +2,9 @@
   "extends": ["stylelint-config-standard", "stylelint-config-standard-scss"],
   "rules": {
     "block-no-empty": null,
-    "unit-allowed-list": ["em", "rem", "%", "s"],
+    "unit-allowed-list": ["em", "rem", "%", "s", "vh", "vw"],
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": null,
     "alpha-value-notation": [
       "percentage",
       {
